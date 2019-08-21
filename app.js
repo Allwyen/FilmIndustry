@@ -65,7 +65,7 @@ app.get('/movieall',(req,res)=>{
 
 });
 
-const APIurl = "http://localhost:3456/movieall"
+const APIurl = "https://filmindustry-allwyen.herokuapp.com/movieall"
 
 app.get('/viewmovie',(req,res)=>{
     request(APIurl,(error,response,body)=>{
