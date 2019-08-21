@@ -65,7 +65,7 @@ app.get('/movieall',(req,res)=>{
 
 });
 
-const APIurl = "https://filmindustry-allwyen.herokuapp.com/movieall"
+const APIurl = "http://filmindustry-allwyen.herokuapp.com/movieall"
 
 app.get('/viewmovie',(req,res)=>{
     request(APIurl,(error,response,body)=>{
